@@ -12,5 +12,9 @@ function ininjaBabySelector() {
 }
 
 function divSelector() {
-  
+  return $('.pics')
+}
+
+function firstListItem() {
+  $('ul li:first-child')
 }
